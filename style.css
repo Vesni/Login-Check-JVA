@@ -1,0 +1,26 @@
+{
+  background-color: white;
+box-shadow: 3px 5px 10px rgba(0, 0, 0, 1);
+padding: 28px;
+border-radius: 10px;
+width: 300px;
+text-align: center;
+
+}
+input {
+  width: 99px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 10px; 
+}
+button {
+  width: 99px;
+  background-color:lightskyblue;
+ border : none;
+  padding: 10px;
+  border-radius : 10px;
+  margin-top : 20px;
+}
+button:hover{
+ Background-color :lightgreen;
+}
