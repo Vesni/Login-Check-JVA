@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Login Form</title>
+</head>
+<body>
+  <div class="login">
+<h2> Login </h2>
+
+<input type="text" id="username" placeholder="Enter Username">
+<input type="password" id="password" placeholder="Enter Password"> 
+    <button id="login" onclick="loginValidate()"> Login </button>
+    <p id="message"> </p>
+
+</div>
+  <script>
+    function loginValidate() {
+  let username = document.getElementById('username').value;
+  let pass = document.getElementById('password').value;
+  let message = document.getElementById('message');
+      let usr1 = "Vesni";
+let pass1 = "2020";
+
+if (username == usr1 && pass == pass1) { 
+  message.textContent ="You Have Been Authorized ✅"
+  message.style.color = 'green';
+  
+}
+         
+ else {
+    message.textContent = "You Have Not Been Authorize ❌";
+    message.style.color = 'red';
+}
+    }
+  </script>
+</body>
+</html>
